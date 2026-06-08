@@ -2,7 +2,7 @@
 
 A simple project to practice opening pull requests with Claude Code.
 
-## Instalation
+## Installation
 
 Clone the repository and run:
 
@@ -10,6 +10,6 @@ Clone the repository and run:
 echo "Hello, World!"
 ```
 
-## Contribuiting
+## Contributing
 
 Feel free to open issues and pull requests!
