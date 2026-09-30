@@ -2,6 +2,7 @@
 
 Ambiente único onde os agentes da Tomain Engenharia são definidos, orquestrados e auditados.
 
+- **`docs/MAPA.md` — comece por aqui: estado atual, o que falta e próximo passo.**
 - `CLAUDE.md` — regras que valem para todos os agentes.
 - `docs/ARQUITETURA.md` — como as peças se conectam.
 - `docs/ACESSOS.md` — níveis de acesso e o que cada agente pode fazer.
