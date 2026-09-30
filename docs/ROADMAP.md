@@ -9,7 +9,6 @@
 - [ ] Propostas (Fase A): só observar o gerador; fluxo atual intocado (`docs/GERADOR-EM-PARALELO.md`)
 - [ ] Orquestrador: painel diário (sessões, pendências de aprovação, falhas)
 - [ ] Comercial, Jurídico, Marketing, Assistência: um caso de uso real por agente, sempre com rascunho + aprovação
-
 - [ ] Melhoria de Sistema e Qualidade: escrever a bateria de testes inicial (`testes/`)
 - [ ] Terminais: formulários Airtable por papel para os funcionários
 

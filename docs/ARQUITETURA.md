@@ -9,12 +9,13 @@
    ┌────────┬──────────┬───┴──────┬───────────┬───────────┬──────────┐
 Propostas Comercial  Jurídico  Marketing  Assist. Técnica Financeiro
 
-   Transversais: Melhoria de Sistema (propõe) · Qualidade (testa e audita)
-   Entrada de dados: terminais dos funcionários (docs/TERMINAIS-FUNCIONARIOS.md)
    │          │          │         │            │            │
    └──────────┴────── Dados compartilhados ─────┴────────────┘
         Airtable (registros) · Drive (documentos) · Gmail · Agenda
 ```
+
+Transversais: **Melhoria de Sistema** (propõe mudanças) e **Qualidade** (testa e audita).
+Entrada de dados: terminais dos funcionários (`docs/TERMINAIS-FUNCIONARIOS.md`).
 
 ## Peças
 - **Agentes**: sessões Claude Code Remote, uma por função, cada uma com o prompt de `agentes/<nome>/AGENTE.md`. Tag da sessão: `agente:<nome>`.
