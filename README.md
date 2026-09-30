@@ -1,15 +1,9 @@
-# hello-claude
+# Tomain — Central de Agentes
 
-A simple project to practice opening pull requests with Claude Code.
+Ambiente único onde os agentes da Tomain Engenharia são definidos, orquestrados e auditados.
 
-## Instalation
-
-Clone the repository and run:
-
-```bash
-echo "Hello, World!"
-```
-
-## Contribuiting
-
-Feel free to open issues and pull requests!
+- `CLAUDE.md` — regras que valem para todos os agentes.
+- `docs/ARQUITETURA.md` — como as peças se conectam.
+- `docs/ACESSOS.md` — níveis de acesso e o que cada agente pode fazer.
+- `agentes/` — um arquivo de escopo por agente (orquestrador, propostas, comercial, jurídico, marketing, assistência técnica, financeiro).
+- `docs/ROADMAP.md` — do modo "tudo sob pedido" até a automação gradual.
