@@ -12,11 +12,13 @@
 | Agente | Airtable | Drive | Gmail | Agenda | Nível |
 |---|---|---|---|---|---|
 | Orquestrador | leitura | leitura | — | leitura | N0 + comandar agentes |
-| Propostas | Clientes/Propostas/Pedidos: escrita de pedido | Motor/Fontes: leitura; Propostas: escrita | rascunho | — | N2 |
+| Propostas | leitura (Fase A); criar pedido só na Fase C | leitura | — | — | N0 (Fase A) |
 | Comercial | Clientes/Propostas: leitura | Orçamentos: leitura | rascunho | leitura | N1 |
 | Jurídico | leitura de Clientes/Pedidos | Contratos: leitura/escrita em pasta própria | rascunho | leitura | N1 |
 | Marketing | leitura de Clientes (sem dados sensíveis) | pasta própria | rascunho | — | N1 |
 | Assistência Técnica | Pedidos: leitura | pasta própria | rascunho | leitura/agenda de visitas | N1 |
+| Melhoria de Sistema | leitura | leitura | — | — | N1 (PR no repositório) |
+| Qualidade | leitura + área de teste | leitura | — | — | N0 (escreve só em `testes/`) |
 | Financeiro | leitura | `Financeiro Tomain Eng`: leitura (só este agente) | — | leitura | N0 |
 
 Revisão do nível: só o Leonardo promove um agente de nível, registrando no `docs/ROADMAP.md`.

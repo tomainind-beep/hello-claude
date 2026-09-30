@@ -8,6 +8,9 @@
                      └─────┬──────┘
    ┌────────┬──────────┬───┴──────┬───────────┬───────────┬──────────┐
 Propostas Comercial  Jurídico  Marketing  Assist. Técnica Financeiro
+
+   Transversais: Melhoria de Sistema (propõe) · Qualidade (testa e audita)
+   Entrada de dados: terminais dos funcionários (docs/TERMINAIS-FUNCIONARIOS.md)
    │          │          │         │            │            │
    └──────────┴────── Dados compartilhados ─────┴────────────┘
         Airtable (registros) · Drive (documentos) · Gmail · Agenda

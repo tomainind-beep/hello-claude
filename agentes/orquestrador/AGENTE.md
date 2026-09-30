@@ -16,4 +16,6 @@ Ver todas as sessões dos agentes, revisar o trabalho, e transformar um comando 
 - Não aprova por conta própria nada que o `CLAUDE.md` exige aprovação.
 
 ## Tabela de roteamento
-proposta, orçamento, pedido → propostas · lead, cliente, follow-up → comercial · contrato, cláusula, prazo legal → jurídico · campanha, conteúdo, site → marketing · chamado, garantia, visita, peça de reposição → assistencia-tecnica · caixa, cobrança, contas → financeiro
+proposta, orçamento, pedido → propostas · lead, cliente, follow-up → comercial · contrato, cláusula, prazo legal → jurídico · campanha, conteúdo, site → marketing · chamado, garantia, visita, peça de reposição → assistencia-tecnica · caixa, cobrança, contas → financeiro · melhorar agente/fluxo → melhoria-de-sistema · testar, bug, auditoria → qualidade
+
+Ciclo de melhoria: qualidade encontra → melhoria propõe (PR) → qualidade testa → Leonardo aprova.
