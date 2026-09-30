@@ -11,4 +11,5 @@ Ambiente único onde os agentes da Tomain Engenharia são definidos, orquestrado
 - `docs/CONTAINER.md` — onde e como o projeto roda.
 - `testes/` — bateria de casos do agente Qualidade.
 - `docs/INVENTARIO.md` — o que já existe hoje e onde está.
+- `docs/DECISOES.md` — decisões tomadas e o motivo.
 - `docs/ROADMAP.md` — do modo "tudo sob pedido" até a automação gradual.

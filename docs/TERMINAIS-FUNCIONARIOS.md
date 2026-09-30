@@ -1,5 +1,7 @@
 # Terminais para os funcionários
 
+> **Status: fase futura.** Por decisão de 30/09/2026, só o Leonardo lança dados até o sistema estar validado por inteiro. Este documento é o desenho para quando chegar a hora.
+
 Objetivo: outras pessoas lançarem dados sem depender do Leonardo.
 
 ## Princípios

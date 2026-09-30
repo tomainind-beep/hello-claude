@@ -11,11 +11,15 @@
 - [ ] Orquestrador: painel diário (sessões, pendências de aprovação, falhas)
 - [ ] Comercial, Jurídico, Marketing, Assistência: um caso de uso real por agente, sempre com rascunho + aprovação
 - [ ] Melhoria de Sistema e Qualidade: escrever a bateria de testes inicial (`testes/`)
-- [ ] Terminais: formulários Airtable por papel para os funcionários
 
 ## Fase 1.5 — Gerador em ensaio isolado e integração (Fase B e C do gerador)
 - [ ] Réplica de teste do gerador; comparar saída com a produção
 - [ ] Autorização do Leonardo para o agente criar pedidos
+
+## Fase 3 — Terminais para funcionários (só depois da validação)
+Pré-requisito: o Leonardo declara o sistema validado. Até lá, ele é o único a lançar dados.
+- [ ] Formulários Airtable por papel, com no máximo 4 acessos (decisão de 13/08)
+- [ ] Registrar a nova decisão em `docs/DECISOES.md`
 
 ## Fase 2 — Automatização seletiva
 Critério para promover uma tarefa: 5 execuções seguidas aprovadas sem correção. Cada promoção é registrada aqui, com data e regra escrita.
