@@ -3,7 +3,8 @@
 ## Fase 0 — Fundação (agora)
 - [x] Repositório central, regras e níveis de acesso definidos
 - [ ] Criar sessões dos agentes com tags `agente:<nome>` (ver `agentes/`)
-- [ ] Mapear onde ficam hoje os dados de cada área (comercial, jurídico, marketing, assistência)
+- [x] Inventário do que existe (`docs/INVENTARIO.md`)
+- [ ] Exportar para o Drive o que está só no Cowork (gerador de contratos, agente jurídico, buscador de empresas, financeiro)
 
 ## Fase 1 — Tudo sob pedido
 - [ ] Propostas (Fase A): só observar o gerador; fluxo atual intocado (`docs/GERADOR-EM-PARALELO.md`)
