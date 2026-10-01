@@ -37,6 +37,7 @@ O plano "Integração Tomain" que você já tinha no Cowork **já define a lógi
 | **Prospecção** | ✅ (lista + rascunho) | 🟡 scripts 02–04 no Drive; base da Receita fora | ⬜ | Definir filtros e redes sociais; decidir base legal; conferir chaves nos scripts |
 | **Comercial** | ✅ | ✅ Airtable, lista de retomada de 2025 | ⬜ | Primeiro caso: retomar propostas de 2025 sem desfecho |
 | **Financeiro** | ✅ (só leitura) | ✅ painel, extratos, contas a pagar (dado sensível) | ⬜ | Só sob pedido; substituir/complementar a rotina do dia 25 |
+| **Documentação Técnica** | ✅ definido 01/10 (rascunho + campos) | ✅ modelos v1 e ficha no Drive; piloto Trouw (814) | ⬜ | Responder as 4 pendências do `AGENTE.md`; testar com a 950A ou um caso real; geração de `.docx` com timbrado só na etapa 2 |
 | **Marketing** | ✅ | 🟡 manual da marca v1–v3, lâminas | ⬜ | Escolher o primeiro caso de uso |
 | **Assistência Técnica** | ✅ | ⬜ nada localizado | ⬜ | ⛔ onde ficam os dados hoje? Piloto já previsto: Relatório de Instalação (Trouw, proposta 814) |
 | **Melhoria de Sistema** | ✅ | — | ⬜ | Só faz sentido depois de 2 ou 3 agentes rodando |
@@ -48,10 +49,11 @@ O plano "Integração Tomain" que você já tinha no Cowork **já define a lógi
 3. Onde estão os dados de assistência técnica, jurídico e marketing (além do que já subiu)?
 4. Definir filtros da Prospecção (CNAE, porte, estado) e se quer redes sociais.
 5. Escolher o caso real do teste comparativo de contrato (sugestão: proposta 957) e dizer se posso gerar uma cópia para você comparar com a original.
-6. Descompactar o `assistente-juridico.plugin` (é um zip) e colocar os arquivos soltos em `juridico-e-contratos/99 - Plugin e Config/conteudo`.
+6. Documentação Técnica: decidir a **contradição de garantia** (Manual: 12 meses da expedição × Relatório: da assinatura do aceite), a convenção do nº de série e o modelo de Relatório para equipamentos que não são rotuladoras.
+7. Descompactar o `assistente-juridico.plugin` (é um zip) e colocar os arquivos soltos em `juridico-e-contratos/99 - Plugin e Config/conteudo`.
 
 ## Agentes em espera (não definidos ainda)
-Projeto, Produção, Compras, Fiscal/Contábil, **Documentação Técnica** (já iniciada no Cowork), Estoque, Expedição, RH, Indicadores. Ver `agentes/BACKLOG.md`.
+Projeto, Produção, Compras, Fiscal/Contábil, Estoque, Expedição, RH, Indicadores. Ver `agentes/BACKLOG.md`.
 
 ## Trilha (ordem recomendada)
 1. ✅ Fundação e inventário

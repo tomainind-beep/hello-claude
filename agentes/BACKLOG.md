@@ -4,7 +4,7 @@ Ordem herdada de `Áreas futuras de integração.md`: **nenhum entra antes do n�
 
 | Agente | O que faz | Elo | Prioridade |
 |---|---|---|---|
-| **Documentação Técnica** | Gera, a partir da Ficha de Dados do Equipamento: Manual de Operação e Manutenção, Laudo NR-12 (APR) e Relatório de Instalação/Start-up/Treinamento. Engenheiro revisa e assina o laudo (ART obrigatória); assinatura do cliente no start dispara a garantia | Em andamento no Cowork (modelos v1, piloto Trouw, proposta 814) | **Alta** (já iniciado) |
+| **Documentação Técnica** | **Definido em `agentes/documentacao-tecnica/`** (saiu do backlog em 01/10) | — | — |
 | **Projeto** | Descritivo de Projeto (com contato do cliente, sem valores); desenhos e BOM preliminar | estado 3 e 3b | Média |
 | **Produção** | Descritivo de Produção (sem preço, sem dados do cliente), OP, status de fabricação | estados 3b e 4 | Média |
 | **Compras** | Lista de faltas, cotações a 2–3 fornecedores, comparativo preço × prazo | estados 4 e 5 | Média |
