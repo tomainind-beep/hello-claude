@@ -1,9 +1,9 @@
 # Mapa do projeto — onde estamos
 
-**Atualizado em 30/09/2026.** Leia este arquivo primeiro ao retomar. Legenda: ✅ feito · 🟡 em andamento · ⬜ não começou · ⛔ bloqueado/decisão pendente
+**Atualizado em 01/10/2026.** Leia este arquivo primeiro ao retomar. Legenda: ✅ feito · 🟡 em andamento · ⬜ não começou · ⛔ bloqueado/decisão pendente
 
 ## Em uma frase
-Estrutura e regras da central estão prontas e o inventário está feito; **nenhum agente está rodando ainda**. Próximo passo: montar o agente Jurídico com o gerador de contratos, em paralelo ao que já funciona no Cowork.
+Estrutura e regras da central estão prontas e o inventário está feito; **nenhum agente está rodando ainda**. O Jurídico/Contratos foi analisado e o gerador de contratos roda aqui com dados fictícios. Próximo passo: você escolher um caso real para o teste comparativo e soltar o conteúdo do plugin jurídico.
 
 ## Princípios fixos
 1. Tudo sob pedido; ação externa só com aprovação do Leonardo.
@@ -29,8 +29,8 @@ Estrutura e regras da central estão prontas e o inventário está feito; **nenh
 |---|---|---|---|---|
 | **Orquestrador** | ✅ | — | ⬜ | Criar a sessão; painel diário de status e pendências |
 | **Propostas** | ✅ (só observa) | ✅ Cloud Run + Airtable, em produção | ⬜ | Sessão de leitura; depois réplica de teste e, só com sua autorização, criar pedidos |
-| **Jurídico** | ✅ | ✅ plugin + pastas (Drive) | ⬜ | **Próximo:** ler o plugin, montar o agente, testar com um caso real |
-| **Contratos** (parte do Jurídico) | 🟡 | ✅ `gerar-contrato.js` (Drive) | ⬜ | Rodar em paralelo e comparar saída com o original; depois contrato lendo o prontuário |
+| **Jurídico** | ✅ (atualizado 01/10) | ✅ plugin + pastas (Drive) | ⬜ | Soltar o conteúdo do plugin (zip não abre daqui); testar com um caso real |
+| **Contratos** (parte do Jurídico) | ✅ | ✅ `gerar-contrato.js` (Drive) | 🟡 testado com dados fictícios | Comparar com um contrato real (ex.: proposta 957); PDF fora do Cowork ainda não funciona; depois ler o prontuário |
 | **Prospecção** | ✅ (lista + rascunho) | 🟡 scripts 02–04 no Drive; base da Receita fora | ⬜ | Definir filtros e redes sociais; decidir base legal; conferir chaves nos scripts |
 | **Comercial** | ✅ | ✅ Airtable, lista de retomada de 2025 | ⬜ | Primeiro caso: retomar propostas de 2025 sem desfecho |
 | **Financeiro** | ✅ (só leitura) | ✅ painel, extratos, contas a pagar (dado sensível) | ⬜ | Só sob pedido; substituir/complementar a rotina do dia 25 |
@@ -44,11 +44,12 @@ Estrutura e regras da central estão prontas e o inventário está feito; **nenh
 2. Conferir se os scripts de prospecção têm chave de API ou token real dentro; se tiver, trocar as chaves.
 3. Onde estão os dados de assistência técnica, jurídico e marketing (além do que já subiu)?
 4. Definir filtros da Prospecção (CNAE, porte, estado) e se quer redes sociais.
-5. Escolher o primeiro caso real do Jurídico (um contrato para revisar ou gerar).
+5. Escolher o caso real do teste comparativo de contrato (sugestão: proposta 957) e dizer se posso gerar uma cópia para você comparar com a original.
+6. Descompactar o `assistente-juridico.plugin` (é um zip) e colocar os arquivos soltos em `juridico-e-contratos/99 - Plugin e Config/conteudo`.
 
 ## Trilha (ordem recomendada)
 1. ✅ Fundação e inventário
-2. ▶ **Jurídico + Contratos** em paralelo ao Cowork
+2. ▶ **Jurídico + Contratos** em paralelo ao Cowork (análise feita; falta teste comparativo)
 3. Orquestrador com painel de status
 4. Propostas em modo observação; réplica de teste do gerador
 5. Qualidade com bateria de testes

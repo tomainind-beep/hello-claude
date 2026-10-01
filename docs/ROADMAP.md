@@ -9,7 +9,8 @@
 ## Fase 1 — Tudo sob pedido
 - [ ] Propostas (Fase A): só observar o gerador; fluxo atual intocado (`docs/GERADOR-EM-PARALELO.md`)
 - [ ] Orquestrador: painel diário (sessões, pendências de aprovação, falhas)
-- [ ] Comercial, Jurídico, Marketing, Assistência: um caso de uso real por agente, sempre com rascunho + aprovação
+- [x] Jurídico/Contratos: material lido e gerador testado com dados fictícios (01/10); falta teste comparativo com contrato real
+- [ ] Comercial, Marketing, Assistência: um caso de uso real por agente, sempre com rascunho + aprovação
 - [ ] Melhoria de Sistema e Qualidade: escrever a bateria de testes inicial (`testes/`)
 
 ## Fase 1.5 — Gerador em ensaio isolado e integração (Fase B e C do gerador)
