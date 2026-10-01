@@ -53,3 +53,25 @@ Contém `Decisões.md`, `Roteiro de Fases.md`, `Prontuário` e `_rascunhos`. Pon
 
 ## Financeiro (`financeiro-e-integracao`)
 Contém extratos (Sicoob, BB), contratos de empréstimo, diagnóstico de contas a pagar e modelo financeiro. **Dado sensível: só o agente Financeiro lê, e só sob pedido.** Não foi aberto na revisão inicial.
+
+---
+
+# Segunda leitura (01/10/2026): o plano "Integração Tomain" já define os agentes
+
+Li o que faltava na pasta `Integração Tomain` e `Captação Clientes`. Os documentos-fonte ficam **no Drive** (contêm nomes de pessoas e dados de negócio); aqui só o resumo.
+
+| Documento (Drive) | O que define | Como a central usa |
+|---|---|---|
+| `Arquitetura de Integração — Tomain.md` (20/07) | Duas camadas: documentos em Drives por área + painel central; chave = nº da proposta; "um dado, um dono"; "congela ao fechar" | Base da arquitetura; mantida |
+| `Fluxo de estados — visão do agente.md` (rascunho v0.1) | **O agente age quando um status muda**, escreve só na seção da área dona e avisa a próxima; dinheiro e fiscal: agente prepara, pessoa aprova. 10 gatilhos do pedido ao fiscal | Vira a especificação do Orquestrador (`docs/FLUXO-DE-ESTADOS.md`) |
+| `ESQUEMA do negócio.md` + `negocio-exemplo-950A.json` | Prontuário: seções `negocio, cliente, comercial, contrato, producao, financeiro`, cada uma com um dono | Modelo de dados dos agentes |
+| `Pessoas, papéis e acessos.md` (v1) | Papéis (Diretor, Gerente Geral, Adm/Compras/Vendas, Projetistas, Automação, Produção, auxiliares) e quem vê o quê; contas só quando o sistema estiver rodando | Base dos níveis de acesso futuros e dos terminais |
+| `Drives por área — estrutura.md` | 5 drives: Comercial, Projetos, Produção, Financeiro, Config (só Leonardo) | Mapa de onde cada agente lê e escreve |
+| `Áreas futuras de integração.md` (24/07) | Backlog em ordem: Contábil, Estoque, Pós-venda, Cotações, Qualidade, Expedição, Marketing, RH, Jurídico, Painel de indicadores. **Em andamento: Documentação técnica** (Manual, Laudo NR-12, Relatório de Instalação) | Agentes adicionais em `agentes/BACKLOG.md` |
+| `Descritivo de Produção/Projeto — 950A`, questionários | Piloto do fluxo: Fechada → descritivo de produção sem preço | Caso de teste da Qualidade |
+| `CRM Tomain — base.xlsx` + histórico 2021–2025 | 430 propostas e 66 clientes; vira fonte de importação no Airtable | Insumo do Comercial |
+| `Captação Clientes/LEIA-ME.md` | Pipeline de prospecção em 4 etapas (já lido) | Agente Prospecção |
+
+## Ainda não lido (de propósito)
+- Financeiro: `Resumo Executivo da Dívida`, `Diagnóstico Consolidado`, `Plano de Ação Semana 1`, `Painel Financeiro.html`, extratos e contratos de empréstimo. Dado sensível; só leio quando o Leonardo pedir.
+- Documentação padrão (Manual, Laudo NR-12, Relatório de Instalação), plano de migração de e-mail, `Apresentação Parque Tecnológico`.

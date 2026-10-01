@@ -1,9 +1,12 @@
 # Mapa do projeto — onde estamos
 
-**Atualizado em 01/10/2026.** Leia este arquivo primeiro ao retomar. Legenda: ✅ feito · 🟡 em andamento · ⬜ não começou · ⛔ bloqueado/decisão pendente
+**Atualizado em 01/10/2026 (2ª leitura do Drive).** Leia este arquivo primeiro ao retomar. Legenda: ✅ feito · 🟡 em andamento · ⬜ não começou · ⛔ bloqueado/decisão pendente
 
 ## Em uma frase
 Estrutura e regras da central estão prontas e o inventário está feito; **nenhum agente está rodando ainda**. O Jurídico/Contratos foi analisado e o gerador de contratos roda aqui com dados fictícios. Próximo passo: você escolher um caso real para o teste comparativo e soltar o conteúdo do plugin jurídico.
+
+## Importante (descoberto na 2ª leitura)
+O plano "Integração Tomain" que você já tinha no Cowork **já define a lógica dos agentes**: cada mudança de status de um negócio dispara um agente, que escreve só na sua seção do prontuário. A central segue esse plano (`docs/FLUXO-DE-ESTADOS.md`), não um paralelo.
 
 ## Princípios fixos
 1. Tudo sob pedido; ação externa só com aprovação do Leonardo.
@@ -46,6 +49,9 @@ Estrutura e regras da central estão prontas e o inventário está feito; **nenh
 4. Definir filtros da Prospecção (CNAE, porte, estado) e se quer redes sociais.
 5. Escolher o caso real do teste comparativo de contrato (sugestão: proposta 957) e dizer se posso gerar uma cópia para você comparar com a original.
 6. Descompactar o `assistente-juridico.plugin` (é um zip) e colocar os arquivos soltos em `juridico-e-contratos/99 - Plugin e Config/conteudo`.
+
+## Agentes em espera (não definidos ainda)
+Projeto, Produção, Compras, Fiscal/Contábil, **Documentação Técnica** (já iniciada no Cowork), Estoque, Expedição, RH, Indicadores. Ver `agentes/BACKLOG.md`.
 
 ## Trilha (ordem recomendada)
 1. ✅ Fundação e inventário
