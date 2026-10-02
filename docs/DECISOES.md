@@ -8,3 +8,5 @@ Uma linha por decisão: data · decisão · motivo. Herda as decisões de `Integ
 - **30/09/2026 · Disparo automático de WhatsApp fica desligado.** A Prospecção entrega lista e rascunho. Motivo: risco de LGPD e de banimento do número.
 - **01/10/2026 · A central segue o plano "Integração Tomain" (22/07), não cria um paralelo.** Fluxo de estados, prontuário por seções, papéis e a regra "dinheiro e fiscal: agente prepara, pessoa aprova" valem aqui. Motivo: o plano já existia e já tinha decisões do Leonardo.
 - **22/07/2026 (herdada) · Contas dos funcionários só quando o sistema estiver desenvolvido, integrado e rodando.** Coerente com a decisão de 30/09.
+- **02/10/2026 · Prioridade máxima: Etapa 1 — Comercial** (CRM, captação e leads, marketing/criativos, follow-up, fechamento, passagem à produção). Regra: seguir a ordem; se um passo travar, trabalhar no que destrava. As outras frentes (Jurídico, Documentação Técnica etc.) ficam atrás desta. Detalhe em `docs/ETAPA-1-COMERCIAL.md`.
+- **02/10/2026 · O CRM nasce em tabelas novas, sem alterar as 3 tabelas do gerador.** Ligação pelo nº da proposta. Motivo: o gerador não pode correr risco (Regra nº 1).

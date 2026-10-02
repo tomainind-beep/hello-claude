@@ -6,7 +6,13 @@
 - [x] Inventário do que existe (`docs/INVENTARIO.md`)
 - [ ] Exportar para o Drive o que está só no Cowork (gerador de contratos, agente jurídico, buscador de empresas, financeiro)
 
-## Fase 1 — Tudo sob pedido
+## Fase 1 — Etapa 1: Comercial (prioridade máxima, 02/10)
+Ver `docs/ETAPA-1-COMERCIAL.md`.
+- [ ] C2 Follow-up das propostas em aberto e da retomada de 2025
+- [ ] C1 CRM mínimo (aprovação do esquema; tabelas novas; importar histórico)
+- [ ] C3 Leads · C4 Marketing/criativos · C5 Prospecção · C6 Fechamento → produção
+
+## Fase 1b — Demais agentes, sob pedido
 - [ ] Propostas (Fase A): só observar o gerador; fluxo atual intocado (`docs/GERADOR-EM-PARALELO.md`)
 - [ ] Orquestrador: painel diário (sessões, pendências de aprovação, falhas)
 - [x] Jurídico/Contratos: material lido e gerador testado com dados fictícios (01/10); falta teste comparativo com contrato real

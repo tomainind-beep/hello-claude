@@ -1,6 +1,9 @@
 # Mapa do projeto — onde estamos
 
-**Atualizado em 01/10/2026 (2ª leitura do Drive).** Leia este arquivo primeiro ao retomar. Legenda: ✅ feito · 🟡 em andamento · ⬜ não começou · ⛔ bloqueado/decisão pendente
+**Atualizado em 02/10/2026.** Leia este arquivo primeiro ao retomar. Legenda: ✅ feito · 🟡 em andamento · ⬜ não começou · ⛔ bloqueado/decisão pendente
+
+## PRIORIDADE ATUAL: Etapa 1 — Comercial
+Ordem definida pelo Leonardo em 02/10: **C1 CRM → C2 follow-up → C3 leads → C4 marketing/criativos → C5 prospecção → C6 fechamento → produção**. Detalhe, dependências e bloqueios em `docs/ETAPA-1-COMERCIAL.md`. Jurídico e Documentação Técnica ficam em segundo plano até a Etapa 1 andar.
 
 ## Em uma frase
 Estrutura e regras da central estão prontas e o inventário está feito; **nenhum agente está rodando ainda**. O Jurídico/Contratos foi analisado e o gerador de contratos roda aqui com dados fictícios. Próximo passo: você escolher um caso real para o teste comparativo e soltar o conteúdo do plugin jurídico.
@@ -57,7 +60,8 @@ Projeto, Produção, Compras, Fiscal/Contábil, Estoque, Expedição, RH, Indica
 
 ## Trilha (ordem recomendada)
 1. ✅ Fundação e inventário
-2. ▶ **Jurídico + Contratos** em paralelo ao Cowork (análise feita; falta teste comparativo)
+2. ▶ **ETAPA 1 — COMERCIAL** (`docs/ETAPA-1-COMERCIAL.md`): C2 follow-up agora; C1 CRM em paralelo
+2b. Jurídico/Contratos e Documentação Técnica: definidos, em espera
 3. Orquestrador com painel de status
 4. Propostas em modo observação; réplica de teste do gerador
 5. Qualidade com bateria de testes
