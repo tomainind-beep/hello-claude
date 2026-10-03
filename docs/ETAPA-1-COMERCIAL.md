@@ -38,7 +38,7 @@ Definida pelo Leonardo em 02/10/2026. Escopo: do marketing e da captação de le
 | Contratos/Jurídico | Contrato a partir da proposta fechada | C6 |
 
 ## Como o comercial funciona hoje (informado pelo Leonardo em 03/10)
-- **Leads**: a campanha roda no **Meta (Facebook/Instagram)** e o **primeiro contato é pelo WhatsApp**.
+- **Leads**: a campanha roda no **Meta (Facebook/Instagram)** e o **primeiro contato é pelo WhatsApp Business** (aplicativo no celular e no computador), em **dois números** ligados aos links dos anúncios.
 - **Follow-up**: feito pelos próprios **vendedores (Prymaxx e Fenox)** e pela **Taynara (apoio comercial)**. Os agentes preparam lista, prioridade e rascunho; **quem envia a mensagem é uma pessoa**.
 - O lead nasce numa conversa de WhatsApp, que esta central **não consegue ler**. Por isso a entrada do lead no CRM depende de registro (Taynara/vendedor, ou importação) e da atribuição à campanha, descrita abaixo.
 

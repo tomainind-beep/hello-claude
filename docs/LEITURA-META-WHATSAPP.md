@@ -7,6 +7,17 @@ Pedido do Leonardo em 03/10/2026: ler os leads que chegam pelo WhatsApp a partir
 - **Meta Ads**: não há conector oficial instalado. Existem conectores de terceiros de leitura de métricas de anúncios (ex.: Windsor.ai, Supermetrics) que o Leonardo teria de conectar pelas configurações de conectores; envolvem OAuth com a conta de anúncios, possível custo e envio de dados de campanha a um terceiro. Um deles (Adspirer) também cria e altera campanhas: **descartado**, por permitir escrita.
 - Gmail, Drive, Agenda e Airtable já estão conectados.
 
+## Como o time usa o WhatsApp (informado em 03/10)
+- **WhatsApp Business (aplicativo)**, no celular e no computador (dispositivos conectados). **Dois números** recebem os leads vindos dos links dos anúncios.
+- Consequências:
+  - **Exportar conversa só funciona pelo celular**; o WhatsApp no computador não exporta.
+  - Como é o aplicativo (e não a API), o caminho 1 serve já; o caminho 3 exigiria tratar **cada um dos dois números** (e a coexistência aplicativo + API, ainda a confirmar).
+  - **Atribuição por número**: se cada anúncio/conjunto aponta para um número específico, o número já diz a origem em nível de campanha; o código por criativo na mensagem pré-preenchida refina para o nível do anúncio.
+  - Várias pessoas podem atender o mesmo número por dispositivos conectados; isso dificulta saber quem respondeu e quando, sem registro no CRM.
+
+## Etiquetas do WhatsApp Business (ganho imediato, sem integração)
+O aplicativo permite **etiquetas** nas conversas. Sugestão alinhada ao funil do CRM, para o time usar já: `Lead novo` · `Qualificado` · `Proposta solicitada` · `Proposta enviada` · `Em negociação` · `Fechado` · `Perdido` · `Sem retorno`. As etiquetas não saem na exportação do chat, então a legenda de cada conversa exportada deve dizer a etapa.
+
 ## Caminhos, do mais seguro ao mais completo
 | # | Caminho | Esforço | Risco | O que entrega |
 |---|---|---|---|---|
