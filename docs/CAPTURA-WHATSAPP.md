@@ -1,6 +1,8 @@
 # Captura automática de conversas do WhatsApp → CRM
 
-> **Escopo (decisão do Leonardo, 03/10):** o CRM automático é **só da Tomain**. As duas linhas são a do **Leonardo** e a da **Taynara**. Os vendedores externos (Prymaxx, Fenox) têm campanhas e números próprios e **ficam fora**: entram no CRM apenas com as propostas deles. A conversa com o cliente de um vendedor externo só passa a ser acessível à Tomain **depois que o vendedor repassa o follow-up**. Começar com **uma linha** (a que mais recebe leads do Meta), testar por um bom tempo e só então ligar a segunda.
+> **Atualização 03/10 (proposta, aguarda confirmação do Leonardo):** o número do Leonardo mistura conversa pessoal e comercial; ligado à API, **todas** as mensagens chegariam ao provedor e ao nosso receptor, e filtrar depois não impede o provedor de guardar 6 meses. Direção: **número comercial dedicado e novo** (WhatsApp Business, em coexistência), com os anúncios do Meta apontando para ele; os números atuais ficam **fora** da integração, e os clientes migram aos poucos. Testar o YCloud Free só com esse número. A linha da Taynara só entra se for exclusiva de trabalho e ela concordar.
+
+> **Escopo anterior (decisão do Leonardo, 03/10):** o CRM automático é **só da Tomain**. As duas linhas são a do **Leonardo** e a da **Taynara**. Os vendedores externos (Prymaxx, Fenox) têm campanhas e números próprios e **ficam fora**: entram no CRM apenas com as propostas deles. A conversa com o cliente de um vendedor externo só passa a ser acessível à Tomain **depois que o vendedor repassa o follow-up**. Começar com **uma linha** (a que mais recebe leads do Meta), testar por um bom tempo e só então ligar a segunda.
 
 Decisão do Leonardo em 03/10/2026: **a exportação manual não serve**. O objetivo é automático: a conversa é lida continuamente, analisada e **condensada no CRM** (resumo, etapa, próxima ação, origem do anúncio), sem alguém exportar nada.
 

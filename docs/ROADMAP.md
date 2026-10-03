@@ -14,7 +14,7 @@ Ver `docs/ETAPA-1-COMERCIAL.md`.
 - [x] C1a Tabelas do CRM criadas no Airtable (03/10)
 - [ ] C1b Importar o histórico 2021–2025 e agrupar propostas em Negócios
 - [x] Provedor pré-escolhido: YCloud (03/10). Falta confirmar plano (Free × Growth), cobrança e LGPD com o YCloud
-- [ ] Criar conta Free no YCloud, Business Manager verificado, ligar **uma linha** (a que mais recebe leads) por QR code e testar por semanas; só depois a segunda
+- [ ] (Proposta) Obter um **número comercial novo** (WhatsApp Business), apontar os anúncios do Meta para ele; criar conta Free no YCloud, Business Manager verificado, ligar **esse número** por QR code e testar por semanas. Números atuais ficam fora
 - [ ] Combinar com Prymaxx e Fenox como avisam que repassaram o follow-up de um cliente
 - [ ] C3 Leads · C4 Marketing/criativos · C5 Prospecção · C6 Fechamento → produção
 
