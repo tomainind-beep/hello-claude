@@ -54,7 +54,7 @@ O plano "Integração Tomain" que você já tinha no Cowork **já define a lógi
 3. Onde estão os dados de assistência técnica, jurídico e marketing (além do que já subiu)?
 4. Definir filtros da Prospecção (CNAE, porte, estado) e se quer redes sociais.
 5. Escolher o caso real do teste comparativo de contrato (sugestão: proposta 957) e dizer se posso gerar uma cópia para você comparar com a original.
-6. Documentação Técnica: **garantia** (Leonardo disse "do embarque" em 03/10; falta confirmar se a NF sai no embarque e alinhar Termos, Contratos, Manual e Relatório), a convenção do nº de série e o modelo de Relatório para equipamentos que não são rotuladoras.
+6. Documentação Técnica: **garantia decidida** (12 meses da NF = embarque; falta aplicar o texto novo no Manual §1.2 e no Relatório §7, textos em `docs/DECISOES.md`), a convenção do nº de série e o modelo de Relatório para equipamentos que não são rotuladoras.
 7. Descompactar o `assistente-juridico.plugin` (é um zip) e colocar os arquivos soltos em `juridico-e-contratos/99 - Plugin e Config/conteudo`.
 
 ## Agentes em espera (não definidos ainda)

@@ -9,8 +9,8 @@ Origem: **Prop** = proposta/Airtable · **Ficha** = Ficha de Dados do Equipament
 | Cliente, nº do negócio | Prop | Código do manual = `<proposta>-MOM` |
 | Revisão / data | Sistema | Mudou depois de entregue = nova revisão |
 | Nº de série, ano de fabricação | Ficha | Convenção do série em aberto |
-| Mês/ano de expedição (garantia §1) | Prop/Leo | Ver contradição de garantia |
-| Período de garantia | Prop | Padrão 12 meses; **confirmar com a proposta** |
+| Mês/ano de expedição (garantia §1) | Prop/Obra | Data de emissão da NF = embarque |
+| Período de garantia | Prop | 12 meses a partir da emissão da NF (= embarque) |
 | Dados técnicos §2 (capacidade, VAC, Hz, kW, bar, L/min, C×L×A, kg, dB, acabamento) | Ficha | Sem dado = pendente |
 | Uso previsto e proibido §3.1 | Ficha | |
 | Botões de emergência, seccionadoras, válvula pneumática §3.3 | Ficha (seção 5) | |
