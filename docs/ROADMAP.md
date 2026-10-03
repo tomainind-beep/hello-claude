@@ -8,7 +8,8 @@
 
 ## Fase 1 — Etapa 1: Comercial (prioridade máxima, 02/10)
 Ver `docs/ETAPA-1-COMERCIAL.md`.
-- [ ] C2 Follow-up das propostas em aberto e da retomada de 2025
+- [x] C2 Planilha de follow-up das propostas em aberto (03/10); falta o time preencher
+- [ ] C2b Lista de retomada de 2025 (49 propostas): Leonardo/Taynara decidem GANHOU / PERDEU / RETOMAR antes de qualquer contato
 - [ ] C1 CRM mínimo (aprovação do esquema; tabelas novas; importar histórico)
 - [ ] C3 Leads · C4 Marketing/criativos · C5 Prospecção · C6 Fechamento → produção
 

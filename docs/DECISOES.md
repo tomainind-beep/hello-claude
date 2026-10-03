@@ -10,3 +10,5 @@ Uma linha por decisão: data · decisão · motivo. Herda as decisões de `Integ
 - **22/07/2026 (herdada) · Contas dos funcionários só quando o sistema estiver desenvolvido, integrado e rodando.** Coerente com a decisão de 30/09.
 - **02/10/2026 · Prioridade máxima: Etapa 1 — Comercial** (CRM, captação e leads, marketing/criativos, follow-up, fechamento, passagem à produção). Regra: seguir a ordem; se um passo travar, trabalhar no que destrava. As outras frentes (Jurídico, Documentação Técnica etc.) ficam atrás desta. Detalhe em `docs/ETAPA-1-COMERCIAL.md`.
 - **02/10/2026 · O CRM nasce em tabelas novas, sem alterar as 3 tabelas do gerador.** Ligação pelo nº da proposta. Motivo: o gerador não pode correr risco (Regra nº 1).
+- **03/10/2026 · Follow-up é feito por pessoas** (vendedores Prymaxx/Fenox e a Taynara); os agentes só priorizam e redigem rascunho. Leads entram por Meta → WhatsApp.
+- **03/10/2026 · Planilha de follow-up no Drive é o CRM provisório** até o C1 ser aprovado e criado. Nenhum dado de cliente fica no GitHub.
