@@ -13,6 +13,7 @@ Dono e único aprovador: Leonardo Tomain. Idioma: português do Brasil.
 - Consultar a pasta `Financeiro Tomain Eng` fora do agente Financeiro.
 - Enviar proposta ou comunicação direto ao cliente sem aprovação (a proposta vai só para os endereços internos).
 - Contornar o nível de acesso do agente (ver `docs/ACESSOS.md`).
+- Contatar, ler a conversa ou redigir follow-up de cliente cujo relacionamento é de um **vendedor externo** (Prymaxx, Fenox), antes de ele repassar o follow-up à Tomain (campo `Quem tem o relacionamento` = `Vendedor externo`). O primeiro acesso ao cliente é do vendedor.
 
 ## Sempre
 - Travar é melhor que errar: questionar quando o pedido contradiz uma fonte de verdade.

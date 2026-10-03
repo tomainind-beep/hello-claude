@@ -1,5 +1,7 @@
 # Captura automática de conversas do WhatsApp → CRM
 
+> **Escopo (decisão do Leonardo, 03/10):** o CRM automático é **só da Tomain**. As duas linhas são a do **Leonardo** e a da **Taynara**. Os vendedores externos (Prymaxx, Fenox) têm campanhas e números próprios e **ficam fora**: entram no CRM apenas com as propostas deles. A conversa com o cliente de um vendedor externo só passa a ser acessível à Tomain **depois que o vendedor repassa o follow-up**. Começar com **uma linha** (a que mais recebe leads do Meta), testar por um bom tempo e só então ligar a segunda.
+
 Decisão do Leonardo em 03/10/2026: **a exportação manual não serve**. O objetivo é automático: a conversa é lida continuamente, analisada e **condensada no CRM** (resumo, etapa, próxima ação, origem do anúncio), sem alguém exportar nada.
 
 ## Como funciona (arquitetura)
@@ -41,7 +43,7 @@ Comparação e perguntas aos provedores: `docs/PROVEDORES-WHATSAPP.md`.
 1. **Coexistência** (manter o app WhatsApp Business e a API no mesmo número): disponibilidade no Brasil, requisitos e limites (por exemplo, o que não sincroniza), e se traz o **histórico** recente de conversas na ligação. Perguntar ao provedor.
 2. **Custos atuais** da Meta e do provedor. Receber mensagem de lead normalmente não gera cobrança, mas a tabela muda: conferir antes.
 3. **Verificação do negócio** na Meta (Business Manager) e quem é o administrador.
-4. **Os dois números**: o segundo pertence a uma conta Meta de outra pessoa (os vendedores)? A ligação exige autorização do dono de cada conta.
+4. **As duas linhas** (Leonardo e Taynara) estão na mesma conta Meta da Tomain? Quem administra cada uma?
 
 ## Etapas e quem faz
 | # | Etapa | Quem | Depende de |
@@ -51,7 +53,7 @@ Comparação e perguntas aos provedores: `docs/PROVEDORES-WHATSAPP.md`.
 | 3 | Tabelas `Leads`, `Negocios`, `Interacoes`, `Origens` no Airtable | **FEITO em 03/10** (aprovado pelo Leonardo). As mensagens brutas ficam no receptor, não no Airtable (limite de registros e dado pessoal) | — |
 | 4 | Receptor do webhook (Cloud Run, projeto separado do gerador) | Eu escrevo; Leonardo cria o projeto/credenciais | 1, 2 |
 | 5 | Agente Analista (prompt, regras, testes) | Eu | 3, 4 |
-| 6 | Ligar o **número 2** (vendedores) | Leonardo + vendedores | autorização deles |
+| 6 | Ligar a **segunda linha** (Taynara ou Leonardo) depois de validar a primeira | Leonardo | 5 validado |
 | 7 | Painel: leads por anúncio, tempo de resposta, funil | Eu | 5 |
 
 O que **posso fazer já**, sem esperar: o esquema do Airtable, o desenho do receptor e do Analista, e os critérios de análise. Para calibrar o resumo, bastam **3 a 5 conversas de teste** exportadas uma única vez (só calibração; não é o processo).

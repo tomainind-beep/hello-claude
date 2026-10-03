@@ -46,7 +46,8 @@ Pedido do Leonardo: o plano Growth do YCloud cobre os dois números? Resultado, 
 
 **Cuidados que não mudam com o plano**
 - O YCloud guarda o histórico por 6 meses; o nosso receptor precisa guardar o resto.
-- O **segundo número é dos vendedores**: ligar à nossa conta exige a autorização de quem administra aquela conta Meta, e as conversas dos clientes deles passariam a ser lidas por nós. Combinar por escrito.
+- **Correção de 03/10:** as duas linhas são da Tomain (Leonardo e Taynara), não dos vendedores. Os vendedores externos ficam fora do CRM automático, então **não há autorização de terceiros a obter**.
+- **Uma conta Free comporta as duas linhas (2 canais).** Não é preciso criar duas contas. Plano de teste: começar com **uma linha** na conta Free, rodar por semanas e só então ligar a segunda.
 - Regra dos 13 dias (abrir o app) e limitações da coexistência (grupos, listas de transmissão) continuam valendo.
 - Exigir contrato de tratamento de dados (LGPD) do YCloud.
 

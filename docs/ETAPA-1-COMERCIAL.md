@@ -48,6 +48,12 @@ Em anúncio "clique para WhatsApp", a conversa abre com uma mensagem pré-preenc
 
 Captura automática das conversas do WhatsApp (C3/C4): ver `docs/CAPTURA-WHATSAPP.md` (a exportação manual foi descartada pelo Leonardo em 03/10). Opções de leitura: `docs/LEITURA-META-WHATSAPP.md`.
 
+## Escopo do CRM e repasse dos vendedores (decisão de 03/10)
+- O **CRM automático é da Tomain**: leads das campanhas da Tomain, que chegam nas linhas do Leonardo e da Taynara.
+- **Vendedores externos (Prymaxx, Fenox)** têm campanhas e números próprios. Entram no CRM só com as **propostas** (pelo gerador) e, no máximo, com follow-up.
+- **O primeiro acesso ao cliente é do vendedor.** Só depois que ele **repassa o follow-up** à Tomain, os agentes podem redigir contato ou ler a conversa desse cliente. No CRM: `Negocios.Quem tem o relacionamento` (Tomain / Vendedor externo) e `Follow-up repassado a Tomain em`.
+- Efeito na planilha de follow-up: das 98 propostas em aberto (sem o registro de teste), **55 são da Tomain (R$ 5,6 mi nominais)** e **43 são de vendedores externos (R$ 12,8 mi nominais, cerca de 70% do valor)**. As 43 ficam como "aguardar repasse". Planilha v2: `comercial-crm/Follow-up — propostas em aberto (03-10-2026, v2 com repasse)`.
+
 ## Resultado do C2 (03/10/2026)
 Planilha de follow-up criada no Drive: `Tomain — Agentes/comercial-crm/Follow-up — propostas em aberto (03-10-2026)`.
 - **99 propostas "Em aberto"**, todas entre 04/07 e 02/10/2026, somando R$ 18,3 mi **nominais** (não é pipeline: ver achados).
