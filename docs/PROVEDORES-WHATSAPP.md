@@ -27,6 +27,19 @@ Como a fase atual **não envia nada**, o custo da Meta tende a ser perto de zero
 
 **Recomendação:** começar cotando **BSP de conexão** (360dialog, YCloud, Twilio e Zenvia) e comparar com uma plataforma (Respond.io ou Wati) apenas como referência de preço.
 
+## Links para cotar (páginas oficiais de preço)
+| Provedor | Página de preços / contato | O que a busca de 03/10 indicou (confirmar na página) |
+|---|---|---|
+| 360dialog | https://360dialog.com/pricing | Plano Regular ~€ 49 por número por mês (2 números ~€ 98/mês), sem repasse sobre as taxas da Meta; Premium ~€ 99 por número. Tem documentação de coexistência |
+| YCloud | https://www.ycloud.com/pricing | Plano grátis (2 canais) e Growth ~US$ 39/mês (3 canais); sem margem sobre a Meta. Tem documentação de coexistência |
+| Twilio | https://www.twilio.com/en-us/whatsapp/pricing | ~US$ 0,005 por mensagem enviada ou recebida, além da Meta. Cobrar por mensagem recebida pesa em volume alto. Coexistência: confirmar |
+| Zenvia | https://zenvia.com/en/prices/ (e https://zenvia.com) | Planos a partir de ~R$ 100/mês, mais taxa de ativação; botão "Fale com Vendas" na página. Coexistência: confirmar |
+
+Ordem sugerida para cotar: **360dialog e YCloud primeiro** (ambos publicam coexistência), depois Zenvia (suporte em português e em reais) e Twilio como referência. Valores vêm de resultados de busca e blogs; **o que vale é o que aparece na página e no orçamento recebido**.
+
+**Mensagem pronta (colar no formulário ou e-mail de cada um):**
+> Somos uma fabricante de máquinas industriais no Brasil e recebemos leads de anúncios clique-para-WhatsApp em 2 números do WhatsApp Business (aplicativo). Queremos ligar os 2 números à API oficial em modo de coexistência, mantendo o aplicativo em uso, e receber por webhook todas as mensagens (recebidas e enviadas pela equipe) com os dados de origem do anúncio, apenas para leitura e análise. Não vamos enviar mensagens em massa. Por favor, enviem: preço para 2 números, taxas por mensagem, histórico de até 6 meses na ligação, prazo de implantação, requisitos e contrato de tratamento de dados (LGPD).
+
 ## Perguntas para cada provedor (copiar e enviar)
 1. Vocês suportam **WhatsApp Business App Coexistence** para números brasileiros? Em quais condições?
 2. Na ligação, o **histórico de até 6 meses** é entregue ao webhook, ou só fica no aplicativo? Em que formato?

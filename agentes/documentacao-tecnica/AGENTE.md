@@ -34,14 +34,14 @@ Modelos `.docx` com campos `{{...}}`, `Ficha de Dados do Equipamento — modelo.
 - É pedido **a cada instalação**. Perguntar a cada geração quais campos ficam em branco para preenchimento no papel (responsável do cliente, treinamento, formatos/receitas, pendências) — não assumir.
 - **Conferir o endereço de entrega**: pode divergir do CNPJ da proposta (outra planta do grupo).
 - **Nº de série**: não há convenção formal. Não inventar; pedir ao Leonardo ou propor com sinalização (a convenção `T-FV-006/2026` foi usada ad hoc no piloto).
-- **Nunca preencher data de aceite nem assinatura**: a assinatura do cliente é o que dispara a garantia.
+- **Nunca preencher data de aceite nem assinatura**: são do cliente e da obra. Atenção: a premissa de que "a assinatura dispara a garantia" **foi contrariada pelo Leonardo em 03/10** (a garantia conta do embarque); o texto do §7 do modelo de Relatório precisa ser corrigido (ver pendência 1).
 - O modelo atual é de **rotuladora** (teste de aplicação de rótulo, troca de bobina). Para outro equipamento (ex.: esteira), os itens precisam ser adaptados e a adaptação revisada pelo Leonardo.
 
 ## Não faz
 Não assina, não envia ao cliente, não altera os modelos-base, não mexe no gerador de propostas.
 
 ## Pendências de decisão (ver `docs/MAPA.md`)
-1. **Contradição de garantia**: o Manual (§1.2) conta 12 meses **da data de expedição**; o Relatório (§7) diz que a contagem inicia **na assinatura do termo de aceite**. Qual vale? Impacta também o contrato e a proposta.
+1. **Início da garantia (resposta parcial do Leonardo em 03/10: "a partir do embarque")**. Hoje há cinco redações: Termos da proposta e Contrato enxuto = emissão da Nota Fiscal; Contrato completo = data do faturamento; Manual §1.2 = data de expedição; Relatório §7 = assinatura do aceite. Falta decidir se vale **embarque** ou **emissão da NF** (iguais só se a NF sai no dia do embarque) e alinhar todos os documentos. Termos da proposta e contrato são fontes congeladas: só mudam com autorização explícita.
 2. Convenção do nº de série.
 3. Modelo de Relatório para equipamentos que não são rotuladoras.
 4. Onde o agente grava o arquivo final em `.docx` (ver limitação abaixo).
