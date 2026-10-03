@@ -12,3 +12,4 @@ Uma linha por decisão: data · decisão · motivo. Herda as decisões de `Integ
 - **02/10/2026 · O CRM nasce em tabelas novas, sem alterar as 3 tabelas do gerador.** Ligação pelo nº da proposta. Motivo: o gerador não pode correr risco (Regra nº 1).
 - **03/10/2026 · Follow-up é feito por pessoas** (vendedores Prymaxx/Fenox e a Taynara); os agentes só priorizam e redigem rascunho. Leads entram por Meta → WhatsApp.
 - **03/10/2026 · Planilha de follow-up no Drive é o CRM provisório** até o C1 ser aprovado e criado. Nenhum dado de cliente fica no GitHub.
+- **03/10/2026 · Leitura de WhatsApp e Meta Ads: somente leitura, começando por exportação manual.** Sem API não oficial no número de vendas (risco de banimento). Integração contínua só com aprovação e decisão de LGPD.

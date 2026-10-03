@@ -10,6 +10,7 @@
 Ver `docs/ETAPA-1-COMERCIAL.md`.
 - [x] C2 Planilha de follow-up das propostas em aberto (03/10); falta o time preencher
 - [ ] C2b Lista de retomada de 2025 (49 propostas): Leonardo/Taynara decidem GANHOU / PERDEU / RETOMAR antes de qualquer contato
+- [ ] C3/C4 (início): Leonardo exporta CSV do Meta Ads e 15–30 conversas do WhatsApp para `comercial-crm/entrada-meta-whatsapp`; o agente analisa (somente leitura)
 - [ ] C1 CRM mínimo (aprovação do esquema; tabelas novas; importar histórico)
 - [ ] C3 Leads · C4 Marketing/criativos · C5 Prospecção · C6 Fechamento → produção
 

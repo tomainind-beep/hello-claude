@@ -45,6 +45,8 @@ Definida pelo Leonardo em 02/10/2026. Escopo: do marketing e da captação de le
 ### Atribuição campanha → lead → venda (para o C3/C4)
 Em anúncio "clique para WhatsApp", a conversa abre com uma mensagem pré-preenchida. **Sugestão simples e sem custo**: incluir nessa mensagem um **código por criativo** (ex.: `Olá, vi o anúncio [T5K-VID2]`). Assim a primeira mensagem do lead já diz de qual anúncio veio, e o registro do lead leva o código. Sem isso, o custo por venda por criativo não é mensurável. Integração automática (API oficial do WhatsApp e dos anúncios) fica para depois e exige decisão sobre LGPD e custo.
 
+Para a leitura somente-leitura de Meta Ads e WhatsApp (C3/C4), ver `docs/LEITURA-META-WHATSAPP.md`.
+
 ## Resultado do C2 (03/10/2026)
 Planilha de follow-up criada no Drive: `Tomain — Agentes/comercial-crm/Follow-up — propostas em aberto (03-10-2026)`.
 - **99 propostas "Em aberto"**, todas entre 04/07 e 02/10/2026, somando R$ 18,3 mi **nominais** (não é pipeline: ver achados).
