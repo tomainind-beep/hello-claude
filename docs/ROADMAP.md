@@ -13,7 +13,8 @@ Ver `docs/ETAPA-1-COMERCIAL.md`.
 - [ ] C3/C4: captura automática das conversas do WhatsApp (`docs/CAPTURA-WHATSAPP.md`): escolher provedor, confirmar coexistência e custos, ligar o número 1, receptor + Analista. Calibração com 3–5 conversas de teste.
 - [x] C1a Tabelas do CRM criadas no Airtable (03/10)
 - [ ] C1b Importar o histórico 2021–2025 e agrupar propostas em Negócios
-- [ ] Cotar provedores de WhatsApp com as perguntas de `docs/PROVEDORES-WHATSAPP.md`
+- [x] Provedor pré-escolhido: YCloud (03/10). Falta confirmar plano (Free × Growth), cobrança e LGPD com o YCloud
+- [ ] Criar conta no YCloud, Business Manager verificado, ligar o número 1 por QR code
 - [ ] C3 Leads · C4 Marketing/criativos · C5 Prospecção · C6 Fechamento → produção
 
 ## Fase 1b — Demais agentes, sob pedido

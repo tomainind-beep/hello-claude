@@ -27,6 +27,29 @@ Como a fase atual **não envia nada**, o custo da Meta tende a ser perto de zero
 
 **Recomendação:** começar cotando **BSP de conexão** (360dialog, YCloud, Twilio e Zenvia) e comparar com uma plataforma (Respond.io ou Wati) apenas como referência de preço.
 
+## Análise do YCloud, plano Growth (03/10/2026)
+Pedido do Leonardo: o plano Growth do YCloud cobre os dois números? Resultado, a partir da documentação pública do YCloud (o site não abre neste ambiente; vi só resultados de busca com trechos dele):
+
+| Necessidade | YCloud | Atende? |
+|---|---|---|
+| 2 números | Growth: **3 canais** (Free: 2 canais) | Sim |
+| Manter o app WhatsApp Business em uso | Coexistência documentada: app versão 2.24.17 ou superior, ligação por QR code | Sim |
+| Histórico das conversas | Até **6 meses**, entregue por webhook próprio, se o dono autorizar na ligação; o app deve ficar aberto durante a sincronização | Sim |
+| Mensagens enviadas pela equipe (para medir tempo de resposta) | Evento de eco (`smb.message.echoes`) entrega as enviadas pelo app | Sim |
+| **Anúncio de origem** | O webhook de mensagem recebida traz o objeto `referral` (id do anúncio, título e `ctwa_clid`) em conversas de anúncio clique-para-WhatsApp | Sim |
+| Preço sem margem sobre a Meta | Repasse da tarifa da Meta, sem acréscimo | Sim |
+| Receptor próprio (nosso) | Webhook para o nosso endereço | Sim |
+
+**Preço: atenção.** O Growth custa **US$ 39 por mês, em dólar, e não R$ 39**. A página lista também "US$ 468 por ano", o que sugere cobrança anual; **confirmar se há plano mensal**. Inclui 2 usuários da caixa de entrada deles, que não vamos usar, porque lemos pelo webhook. Canais extras: US$ 5 cada.
+
+**O plano Free também tem 2 canais e API de mensagens ilimitada.** Pode bastar para começar. **Perguntar ao YCloud** se coexistência, histórico e webhook funcionam no Free; se sim, testamos o número 1 sem custo e subimos para o Growth depois, se precisar.
+
+**Cuidados que não mudam com o plano**
+- O YCloud guarda o histórico por 6 meses; o nosso receptor precisa guardar o resto.
+- O **segundo número é dos vendedores**: ligar à nossa conta exige a autorização de quem administra aquela conta Meta, e as conversas dos clientes deles passariam a ser lidas por nós. Combinar por escrito.
+- Regra dos 13 dias (abrir o app) e limitações da coexistência (grupos, listas de transmissão) continuam valendo.
+- Exigir contrato de tratamento de dados (LGPD) do YCloud.
+
 ## Links para cotar (páginas oficiais de preço)
 | Provedor | Página de preços / contato | O que a busca de 03/10 indicou (confirmar na página) |
 |---|---|---|
