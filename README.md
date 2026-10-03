@@ -6,6 +6,7 @@ Ambiente único onde os agentes da Tomain Engenharia são definidos, orquestrado
 - **`docs/ETAPA-1-COMERCIAL.md` — prioridade atual: CRM, leads, marketing, follow-up e fechamento.**
 - `docs/CAPTURA-WHATSAPP.md` — captura automática das conversas do WhatsApp e resumo no CRM.
 - `docs/PROVEDORES-WHATSAPP.md` — comparação de provedores e perguntas para cotar.
+- `docs/MAPA-AGENTES.md` — mapa de agentes e conexões (com versão visual).
 - `CLAUDE.md` — regras que valem para todos os agentes.
 - `docs/ARQUITETURA.md` — como as peças se conectam.
 - `docs/ACESSOS.md` — níveis de acesso e o que cada agente pode fazer.
