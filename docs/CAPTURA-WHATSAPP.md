@@ -9,12 +9,12 @@ Anúncio Meta (clique para WhatsApp)
 WhatsApp Business (app no celular/computador — continua sendo usado pelo time)
         │  conexão oficial da Meta (API do WhatsApp Business, modo "coexistência")
         ▼
-Webhook (receptor) ──► Airtable: tabela Mensagens (bruto, uma linha por mensagem)
+Webhook (receptor) ──► Armazenamento do receptor (mensagens brutas; NÃO vão para o Airtable)
                                 │
                   Agente Analista (Claude), 1x por dia ou a cada conversa encerrada
                                 │
                                 ▼
-                 Airtable: Leads / Negócios / Interações (condensado)
+                 Airtable (já criadas): Leads / Negócios / Interações / Origens (condensado)
                  etapa · resumo · objeções · próxima ação · origem do anúncio · tempo de resposta
 ```
 - **Atribuição automática**: quando o lead chega de um anúncio "clique para WhatsApp", a API entrega junto da mensagem os dados do anúncio de origem (id do anúncio, título). O custo por conversa e por venda por criativo passa a sair sozinho, sem código na mensagem.
@@ -35,6 +35,8 @@ Etapa do funil · resumo de 3–5 linhas · o que o lead pediu (produto, volume,
 
 Recomendo **B**: um provedor oficial resolve o onboarding dos dois números e entrega as mensagens por webhook; o resto (receptor, análise, CRM) é nosso, no Airtable.
 
+Comparação e perguntas aos provedores: `docs/PROVEDORES-WHATSAPP.md`.
+
 ## O que precisa ser confirmado antes de contratar
 1. **Coexistência** (manter o app WhatsApp Business e a API no mesmo número): disponibilidade no Brasil, requisitos e limites (por exemplo, o que não sincroniza), e se traz o **histórico** recente de conversas na ligação. Perguntar ao provedor.
 2. **Custos atuais** da Meta e do provedor. Receber mensagem de lead normalmente não gera cobrança, mas a tabela muda: conferir antes.
@@ -46,7 +48,7 @@ Recomendo **B**: um provedor oficial resolve o onboarding dos dois números e en
 |---|---|---|---|
 | 1 | Escolher provedor e confirmar coexistência/custos | Leonardo (+ eu preparo as perguntas e a comparação) | — |
 | 2 | Business Manager verificado; ligar o **número 1** (Tomain) | Leonardo, com o celular do número em mãos | 1 |
-| 3 | Tabelas `Mensagens`, `Leads`, `Interações`, `Origens` no Airtable | Eu, **após sua aprovação do esquema** (C1) | aprovação |
+| 3 | Tabelas `Leads`, `Negocios`, `Interacoes`, `Origens` no Airtable | **FEITO em 03/10** (aprovado pelo Leonardo). As mensagens brutas ficam no receptor, não no Airtable (limite de registros e dado pessoal) | — |
 | 4 | Receptor do webhook (Cloud Run, projeto separado do gerador) | Eu escrevo; Leonardo cria o projeto/credenciais | 1, 2 |
 | 5 | Agente Analista (prompt, regras, testes) | Eu | 3, 4 |
 | 6 | Ligar o **número 2** (vendedores) | Leonardo + vendedores | autorização deles |

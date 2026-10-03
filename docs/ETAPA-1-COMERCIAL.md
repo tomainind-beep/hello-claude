@@ -19,7 +19,8 @@ Definida pelo Leonardo em 02/10/2026. Escopo: do marketing e da captação de le
 | **C5** | **Prospecção ativa** (base da Receita, filtros, redes sociais) | C1; decisão sobre WhatsApp e LGPD; base da Receita no ar | Não |
 | **C6** | **Fechamento → produção**: ficha de fechamento, contrato, aviso à produção e ao financeiro | C1 (status Fechada) + Contratos (já testado) | Parcial |
 
-## Como o CRM é desenhado (proposta para aprovação)
+## Como o CRM é desenhado (APROVADO em 03/10 e CRIADO no Airtable)
+Tabelas criadas na base `Tomain Comercial`: `Origens`, `Negocios`, `Leads`, `Interacoes`. As 3 tabelas do gerador não foram tocadas.
 - **Não alterar as 3 tabelas do gerador.** Elas não são tocadas: criamos tabelas novas na mesma base, ligadas pelo **nº da proposta** (a chave que já vale em toda a casa). Assim o gerador não corre risco.
 - **Negócios** (uma linha por oportunidade; um negócio agrupa uma ou mais propostas): número, cliente, vendedor, valor, **etapa do funil**, data do último contato, próxima ação e data, motivo de perda, origem.
 - **Etapas do funil** (alinhadas ao `docs/FLUXO-DE-ESTADOS.md`): Lead novo → Qualificado → Proposta solicitada → Proposta enviada → Em negociação → **Fechada** | Perdida | Sem retorno.
