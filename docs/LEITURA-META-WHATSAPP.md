@@ -1,5 +1,7 @@
 # Leitura de Meta Ads e WhatsApp (somente leitura)
 
+> **Atualização 03/10:** o Leonardo rejeitou a exportação manual como solução (não é automática). A direção passou a ser a **captura contínua pela API oficial**, descrita em `docs/CAPTURA-WHATSAPP.md`. O caminho 1 abaixo fica apenas como **calibração** (3 a 5 conversas de teste).
+
 Pedido do Leonardo em 03/10/2026: ler os leads que chegam pelo WhatsApp a partir dos anúncios do Meta e analisar as duas contas (Meta Ads e WhatsApp), **sem enviar nada**.
 
 ## Situação nesta central

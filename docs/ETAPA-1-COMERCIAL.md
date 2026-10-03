@@ -14,7 +14,7 @@ Definida pelo Leonardo em 02/10/2026. Escopo: do marketing e da captação de le
 |---|---|---|---|
 | **C1** | **CRM mínimo**: tabelas Negócios (funil), Leads, Interações, Origens; importar o histórico | Aprovação do esquema pelo Leonardo | Sim (esquema) |
 | **C2** | **Follow-up das propostas em aberto** (inclui a lista de retomada de 2025) | Só dos dados que já existem; usa o CRM quando ele nascer | **Sim — destrava valor sem esperar o CRM** |
-| **C3** | **Leads**: entrada, qualificação, rascunho de resposta, ligação lead → proposta | C1 (onde o lead mora) e saber de onde os leads chegam | Parcial |
+| **C3** | **Leads**: captura automática das conversas do WhatsApp, qualificação, resumo no CRM, ligação lead → proposta | C1 (onde o lead mora) e saber de onde os leads chegam | Parcial |
 | **C4** | **Marketing e criativos**: qual anúncio/campanha gera lead que vira **venda** (não só lead barato) | C1 + C3 + exportação dos dados de anúncio | Não |
 | **C5** | **Prospecção ativa** (base da Receita, filtros, redes sociais) | C1; decisão sobre WhatsApp e LGPD; base da Receita no ar | Não |
 | **C6** | **Fechamento → produção**: ficha de fechamento, contrato, aviso à produção e ao financeiro | C1 (status Fechada) + Contratos (já testado) | Parcial |
@@ -45,7 +45,7 @@ Definida pelo Leonardo em 02/10/2026. Escopo: do marketing e da captação de le
 ### Atribuição campanha → lead → venda (para o C3/C4)
 Em anúncio "clique para WhatsApp", a conversa abre com uma mensagem pré-preenchida. **Sugestão simples e sem custo**: incluir nessa mensagem um **código por criativo** (ex.: `Olá, vi o anúncio [T5K-VID2]`). Assim a primeira mensagem do lead já diz de qual anúncio veio, e o registro do lead leva o código. Sem isso, o custo por venda por criativo não é mensurável. Integração automática (API oficial do WhatsApp e dos anúncios) fica para depois e exige decisão sobre LGPD e custo.
 
-Para a leitura somente-leitura de Meta Ads e WhatsApp (C3/C4), ver `docs/LEITURA-META-WHATSAPP.md`.
+Captura automática das conversas do WhatsApp (C3/C4): ver `docs/CAPTURA-WHATSAPP.md` (a exportação manual foi descartada pelo Leonardo em 03/10). Opções de leitura: `docs/LEITURA-META-WHATSAPP.md`.
 
 ## Resultado do C2 (03/10/2026)
 Planilha de follow-up criada no Drive: `Tomain — Agentes/comercial-crm/Follow-up — propostas em aberto (03-10-2026)`.
